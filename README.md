@@ -1,6 +1,16 @@
 # A flask restful template
 
-[TOC]
+* [About The Project](#about-the-project)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
+* [Built with](#built-with)
+* [Getting Started](#getting-started)
+* [Usage](#usage)
+    * [Add route](#add-route)
+    * [Add model](#add-model)
+    * [Apply model changes](#apply-model-changes)
+* [Collaborative development](#collaborative-development)
+* [License](#license)
 
 ## About The Project
 
