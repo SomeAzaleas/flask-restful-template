@@ -1,7 +1,7 @@
-from database import DevelopmentDatabase, ProductionDatabase
+from database import DevDatabase, ProdDatabase
 
 
-class DevelopmentSettings(DevelopmentDatabase):
+class DevSettings(DevDatabase):
     ENV = 'development'
     SERVER_NAME = "127.0.0.1:8000"
     DEBUG = True
@@ -9,14 +9,14 @@ class DevelopmentSettings(DevelopmentDatabase):
     SESSION_COOKIE_NAME = 'NOT SESSION'
 
 
-class ProductionSettings(ProductionDatabase):
+class ProdSettings(ProdDatabase):
     ENV = 'production'
     SECRET_KEY = 'barSSS=A-=-ds11*&'
     SESSION_COOKIE_NAME = 'MD5_DATA'
 
 
 settings = {
-    'dev': DevelopmentSettings,
-    'prod': ProductionSettings,
-    'default': DevelopmentSettings
+    'dev': DevSettings,
+    'prod': ProdSettings,
+    'default': DevSettings
 }

@@ -1,6 +1,6 @@
-class DevelopmentDatabase(object):
+class DevDatabase(object):
     username = 'root'
-    password = '123456'
+    password = 'root'
     host = 'localhost'
     port = 3306
     database = 'flask_restful_template'
@@ -8,7 +8,7 @@ class DevelopmentDatabase(object):
     SQLALCHEMY_ECHO = True
 
 
-class ProductionDatabase(object):
+class ProdDatabase(object):
     username = 'root'
     password = '123456'
     host = 'localhost'

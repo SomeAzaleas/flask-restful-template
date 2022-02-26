@@ -1,6 +1,6 @@
-# here is a example to create model
+# here is an example to create model
 # you should always import db from .base to create a new model
-from base import db, Base
+from .base import db, Base
 
 
 class Admin(Base):
